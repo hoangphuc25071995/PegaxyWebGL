@@ -56,7 +56,7 @@
     <div id="unity-progress-bar">
     </div>
   </div>
-  <script src="Build/Build.loader.js"></script>
+  <script src="Build/PegaxyWebGL.loader.js"></script>
   <script>
     const maxPixelRatioMobile = 2.0;
     const maxPixelRatioDesktop = 1.5;
@@ -66,11 +66,11 @@
     var pixelRatio = Math.min(window.devicePixelRatio, maxDevicePixelRatio);
 
     var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/Build.loader.js";
+    var loaderUrl = buildUrl + "/PegaxyWebGL.loader.js";
     var config = {
-      dataUrl: buildUrl + "/Build.data.unityweb",
-      frameworkUrl: buildUrl + "/Build.framework.js.unityweb",
-      codeUrl: buildUrl + "/Build.wasm.unityweb",
+      dataUrl: buildUrl + "/PegaxyWebGL.data.unityweb",
+      frameworkUrl: buildUrl + "/PegaxyWebGL.framework.js.unityweb",
+      codeUrl: buildUrl + "/PegaxyWebGL.wasm.unityweb",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "Pegaxy",
       productName: "PegaxyViewer",
